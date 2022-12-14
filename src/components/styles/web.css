@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-image:url('../images/webback.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container1 h1 {
+    line-height: 100px;
+    margin-left: 50px;
+    color: white;
+}
+.container1 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-decoration:underline;
+    color: white;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.topic{
+    width: 230px;
+    height: 160px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.topic img{
+    width: 230px;
+}
+.topic:hover{
+    opacity: 0.5;
+}
+.topic h2{
+    margin-top: -3px;
+    text-decoration: none;
+    color: white;
+    margin-left: 35px;
+}
+.footer{
+    height: 40px;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    width: 80px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #0b57d0;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: #03255c;;
+}
+iframe{
+    margin-top: 10px;
+}

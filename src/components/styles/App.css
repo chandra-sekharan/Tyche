@@ -1,0 +1,87 @@
+.header{
+    border: 1px solid black;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+.brand{
+    width: 150px;
+    height: 10em;
+    margin-left: 40px;
+    margin-top: -80px;
+}
+    
+.brand img{
+    width: 360px;
+}
+.search {
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+}
+.searchbox{
+    width: 100%;
+}
+input[type="text"]{
+    width: 70%;
+    padding-left: 4%;
+    margin-top: 10px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="button"]{
+    padding:7px;
+    border-radius: 4px;
+    height: 33px;
+    margin-top: 10px;
+}
+.logo img{
+    position: relative;
+    top: 20px;
+    width: 300px;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width:600px){
+   
+   .header{
+     width: 100%;
+     height: 100%;
+   }
+   .brand{
+    margin-left: 20px;
+   }
+   .brand img{
+     margin-top: 13px;
+   }
+   .searchbox{
+    display: none;
+   }
+
+   .homesection{
+    width: 100%;
+    height: 100%;
+  }
+ 
+.form{
+    width:70% !important;
+    display: flex;
+    margin-left: -50px !important;
+   }
+ .form input{
+    margin-left: 30px !important;
+ }
+ .form button{
+    margin-left: 100px !important;
+ }
+ .title {
+    margin-top: 30px !important;
+    margin-left:30px !important;
+ }
+ iframe{
+    width: 100%;
+ }
+}
