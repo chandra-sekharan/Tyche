@@ -29,7 +29,7 @@ const Home = ({setlogin}) =>{
     }
     const handlesubmit =(event)=>{
         event.preventDefault();
-       if(user === "web@123" & pass === "1234")
+       if(user === "tyche@123" & pass === "1234")
        {
          alert("login success");
          setlogin(true);
