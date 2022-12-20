@@ -1,3 +1,8 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/home.jpg);
+}
 .header{
     border: 1px solid black;
     height: 60px;
@@ -55,7 +60,8 @@ input[type="button"]{
     margin-left: 20px;
    }
    .brand img{
-     margin-top: 13px;
+    margin-top: 22px;
+     
    }
    .searchbox{
     display: none;

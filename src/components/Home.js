@@ -10,26 +10,25 @@ const Home = ({setlogin}) =>{
   const openPopup = () =>{
     
       var x = document.getElementsByClassName('form')[0];
-      var y = document.getElementsByClassName('homesection')[0];
+     
 
       x.style.display = "flex";   
-      y.style.filter = 'blur(8px)';
-      y.style.backdropFilter = 'blur(10px)';
+      
       
     }
 
     const boxclose = () =>{
     
       var x = document.getElementsByClassName('form')[0];
-      var y = document.getElementsByClassName('homesection')[0];
+     
 
       x.style.display = "none";   
-      y.style.filter = 'none';
+      
       
     }
     const handlesubmit =(event)=>{
         event.preventDefault();
-       if(user === "web@123" & pass === "1234")
+       if(user === "tyche@123" & pass === "1234")
        {
          alert("login success");
          setlogin(true);

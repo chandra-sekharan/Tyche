@@ -2,13 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.container1{
-    background-image:url('../images/webback.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
+
 .container1 h1 {
     line-height: 100px;
     margin-left: 50px;
