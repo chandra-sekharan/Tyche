@@ -42,7 +42,7 @@ const [login , setlogin] = useState('');
         <Route path='/react' element={<ReactJ video={video}/>} />
         <Route path='/course' element={<Course src={src}/>} /> 
       </Routes>
-       <Home setlogin={setlogin}/> 
+       
       
     </div>
     </BrowserRouter>
