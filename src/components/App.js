@@ -31,7 +31,6 @@ const [login , setlogin] = useState('');
     <div>
       <Header/>
       
-      {login ? 
         <Routes>
         <Route path='/' element={<Web/>} />
         <Route path='/html' element={<Html video={video}/>} />
@@ -43,9 +42,7 @@ const [login , setlogin] = useState('');
         <Route path='/react' element={<ReactJ video={video}/>} />
         <Route path='/course' element={<Course src={src}/>} /> 
       </Routes>
-       :
        <Home setlogin={setlogin}/> 
-       }
       
     </div>
     </BrowserRouter>
